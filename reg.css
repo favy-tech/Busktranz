@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/signpg.jpg);
+    background-size: cover;
+}
+ .book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: right;
+}
+
+.navigation ul{
+    width: 60%;
+    text-align: center;
+    display: none;
+}
+.nav-bar{
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 5,5,5,5;
+    margin: 5,5,5,5;
+} 
+.visible{
+    display: block !important;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.sub-container{
+    width: 50%;
+}
+.size{
+    /* text-align: center; */
+    text-align: right;
+    color:black;
+    font-size:x-large;
+    
+}
+
+/* Floating column for labels: 25% width */
+.col-25{
+    float: left;
+    width: 29%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear float after the columns */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* responsive layout - when the screen is less 650px wide, make the two columns stack on top each other instead of next to each other */
+@media screen and (max-width: 650px) {
+   .col-25, .col-75{
+    width: 100%;
+    margin-top: 0;
+   }    
+}
+input[type=text] {
+    width: 60%;
+    padding: 08px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+input[type=tel]{
+    width: 60%;
+    padding: 08px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+input[type=email]{
+    width: 60%;
+    padding: 08px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+input[type=password]{
+    width: 60%;
+    padding: 08px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.foot{
+    width: 85%;
+    text-align: center;
+    background-color: #181761;
+}
+@media screen and (max-width:725) {
+    
+}
+.bottom{
+    /* text-align: right; */
+    color: white;
+    margin-bottom: 20px;
+}

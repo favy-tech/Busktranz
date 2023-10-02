@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport  Booking</title>
+    <link rel="stylesheet" href="./reg.css">
+    <link rel="icon" href="https://i.pinimg.com/236x/9d/bb/6c/9dbb6c4a0c23cbe99e100971fa46b8d5.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="book">
+    <h1 class="port">Fast Transport Booking</h1>
+    <i class="fa-solid fa-bars nav-bar"></i>
+    </header>
+    <nav class="navigation">
+      <ul>
+        <li><a class="active" href="/homepage.html">Home</a></li>
+        <li><a href="#CONTACT">Contact</a></li>
+        <li><a href="#ABOUT">About</a></li>
+        <li><a href="#MANAGE BOOKING">Manage booking</a></li>
+      </ul> 
+    </nav>
+   <div class="container">
+    <!-- <section>
+      <h2>LOGIN</h2>
+      <form action="">
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="email address" id="email Address"><br><br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password"><br><br>
+        <button class="login">Login</button>
+    </form>
+    If you have you don't have an account 
+    </section> -->
+    <div class="sub-container">
+      <form action="" class="size">
+        <div class="form-grp">
+          <div class="col-25">
+            <label for="Name"><b>Full Name</b></label>
+          </div>
+          <div class="col-75">
+            <input type="text" placeholder="Full Name" id="name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Phone Number"><b>Phone Number</b><label>
+          </div>
+          <div class="col-75">
+            <input type="tel" placeholder="Phone Number" id="phone">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Email Address"><b>Email Address</b><label>
+          </div>
+          <div class="col-75">
+            <input type="email" placeholder="Email Address" id="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Address"><b>House Address</b></label>
+          </div>
+          <div class="col-75">
+            <input type="text" placeholder="House Address" id="address">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="password"><b>Password</b></label>
+          </div>
+          <div class="col-75">
+            <input type="password" placeholder="password" id="password" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="confirm password"><b>Confirm password</b></label>
+          </div>
+          <div class="col-75">
+            <input type="password" placeholder="confirm password" id="confirm" required>
+          </div>
+        </div>
+        <button class="foot" id="submit">Submit</button>
+      </form>  
+      <p class="bottom">If have an account sign in<a href="http://127.0.0.1:5500/Login.html" target="_blank"><button>Click here!!!</button></a></p>
+    </div>
+   </div>
+   <script>
+    const navIcon = document.querySelector(".fa-bars")
+    const navLink = document.querySelector(".navigation ul");
+
+    navIcon.addEventListener("click", function(){
+      navLink.classList.toggle("visible");
+    })
+
+   </script>
+   <script src="./sign up.js"></script>
+  </body>
+</html>
